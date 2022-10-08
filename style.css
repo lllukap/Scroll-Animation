@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    padding: 0;
+
+}
+
+.welcome{
+    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    color: rgba(247, 178, 207, 0.9);
+    background-color:  black;
+    
+   
+}
+
+.tittle{
+    font-size: 120px;
+    font-family: 'Silkscreen';
+    width: fit-content;
+    padding-top: 10vh;
+    margin: auto;
+    text-align: center;
+}
+
+.headline{
+    font-size: 60px;
+    font-family: 'Silkscreen';
+    width: 35%;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 20vh;
+}
+
+.headline { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.block {
+    position: relative;
+    margin: auto;
+    margin-bottom: 25%;
+    height: 50vh;
+    width: 50%;
+    border-radius: 25px;
+    background: linear-gradient( 90deg, rgba(255,255,255,0.8), rgba(247, 178, 207, 0.9));
+    box-shadow: 20px 20px rgba(255, 255, 255, 0.15);
+    /* display:flex; */
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+.names{
+    font-family: 'silkscreen';
+    font-size: 25px;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.content{
+    text-align: center;
+    font-family: 'silkscreen';
+    font-size: 20px;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.emoji{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 70px;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+    
+}
