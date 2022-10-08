@@ -1,5 +1,1 @@
-// $("#start").click(() => {
-//     $("#start").hide()
-//   })
-  
-  AOS.init()
+   AOS.init()
